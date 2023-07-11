@@ -1,12 +1,15 @@
 function fibonacci(num) {
 // your code here
-	let f=0;
-	let s=1;
-	let fab=0;
-	for (let i=1; i < num; i++) {
-		fab=fab+i;
-	}
-	return fab;
+	 let a = 0, b = 1, c, i;
+    if( n == 0)
+        return a;
+    for(i = 2; i <= n; i++)
+    {
+    c = a + b;
+    a = b;
+    b = c;
+    }
+    return b;
 }
 
 module.exports = fibonacci;
