@@ -3,8 +3,8 @@ function fibonacci(num) {
 	 let a = 0, b = 1, c, i;
     if( num == 0)
         return a;
-	if(num==1)
-		return b;
+	if(num==1 || num==2)
+		return 1;
     for(i = 3; i <= num; i++)
     {
     c = a + b; //c==1
