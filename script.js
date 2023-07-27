@@ -1,9 +1,9 @@
 function fibonacci(num) {
 // your code here
 	 let a = 0, b = 1, c, i;
-    if( num == 0)
+    if( num == 1)
         return a;
-	if(num==1 || num==2)
+	if(num==2)
 		return b;
     for(i = 3; i <= num; i++)
     {
